@@ -1,8 +1,7 @@
 # PixelAnimation
 
 ## Sylveon
-![Sylveon Animation]()
-![Video to GIF output](https://github.com/user-attachments/assets/c0f1eef2-bf3b-4fee-9b9d-24905dd806f0)
+![Sylveon animation](https://github.com/user-attachments/assets/83a13049-f377-4a1d-b502-9848b77d112c)
 
 ### Assets
 - **Sprite Sheet**: Created via a GIF → Sprite Sheet converter  
