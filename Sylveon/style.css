@@ -1,0 +1,44 @@
+:root{
+    --pixel-size:6; /*for every pixel, show it 15 times than it already is*/
+}
+
+body{
+    background: #fffefe
+  }
+
+.Character{
+    width: calc(52px * var(--pixel-size));
+    height: calc(65px * var(--pixel-size));
+    /* background-color: wheat; */
+    overflow:hidden;
+    position: relative;
+    margin: 0 auto;
+}
+/*
+steps allows it to do the animation in steps
+*/
+
+.Character_spritesheet{
+    animation: moveSpritesheet 1s steps(10) infinite;
+    width: calc(520px * var(--pixel-size));
+    position:absolute;
+}
+
+.Character_shadow {
+    position: absolute;
+    width: calc(52px * var(--pixel-size));
+    height: calc(75px * var(--pixel-size));
+ }
+
+.pixelart{
+    image-rendering: pixelated;
+}
+
+@keyframes moveSpritesheet{
+    from{
+        transform: translate3d(0px, 0, 0)
+    }
+    to{
+        transform: translate3d(-100%, 0,0)
+    }
+}
