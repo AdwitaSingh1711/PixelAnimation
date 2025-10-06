@@ -22,6 +22,13 @@
 
 ---
 
+## Budew
+
+### Assets
+- **Sprite Sheet**: Custom-made from Gen 5 references
+
+---
+
 ## Tools Used
 - [dotpict](https://dotpict.net/) → drawing
 - [Piskel](https://www.piskelapp.com/) → sprite sheet assembly
