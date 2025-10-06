@@ -1,5 +1,5 @@
 :root{
-    --pixel-size:0.125; /*for every pixel, show it 15 times than it already is*/
+    --pixel-size:2; /*for every pixel, show it x times larger than it already is*/
 }
 
 body{
@@ -7,7 +7,7 @@ body{
   }
 
 .Character{
-    width: calc(512px * var(--pixel-size));
+    width: calc(256px * var(--pixel-size));
     height: calc(1024px * var(--pixel-size));
     /* background-color: wheat; */
     overflow:hidden;
@@ -19,7 +19,7 @@ steps allows it to do the animation in steps
 */
 
 .Character_spritesheet{
-    animation: moveSpritesheet 1.5s steps(2) infinite;
+    animation: moveSpritesheet 1.5s steps(4) infinite;
     width: calc(1024px * var(--pixel-size));
     position:absolute;
 }
